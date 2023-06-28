@@ -8,15 +8,23 @@ int main(){
     car1.setcarcolor("mor");
     car car2("kirmizi","das auto",321); 
     car car3("sari","togg",100); 
+    
+    car *p;
+    p= new car ("sari","BMW",3124);
+    p->setcarcolor("beyaz");
+    p->ruhsat();
 
-    cout<<car1.getcarcolor();
+    p=&car1;
+    p-> ruhsat();
+
+  //  cout<<car1.getcarcolor();
     
     
-    car2.ruhsat();
-    cout<<endl<<endl;
-    car1.ruhsat();
-    cout<<endl<<endl;
-    car3.ruhsat();
+   // car2.ruhsat();
+   // cout<<endl<<endl;
+   // car1.ruhsat();
+   // cout<<endl<<endl;
+   // car3.ruhsat();
  //   cout<<redcar.color<<endl<<bluecar.color<<endl<<yellowcar.color<<endl;
 
 
