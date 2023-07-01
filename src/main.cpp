@@ -8,7 +8,7 @@ int main(){
     car1.setcarcolor("mor");
     car car2("kirmizi","das auto",321); 
     car car3("sari","togg",100); 
-    
+      
     car *p;
     p= new car ("sari","BMW",3124);
     p->setcarcolor("beyaz");
