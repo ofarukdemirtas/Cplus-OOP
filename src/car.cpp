@@ -9,7 +9,7 @@ car::car(string _color, string _model, int _hp ){
     hp=_hp;
 }
 // car deconstructor
-car::~car(){
+car::~car(){ 
     cout << car::model << "deconstructor called"<<endl;
 }
 void car::ruhsat (){
