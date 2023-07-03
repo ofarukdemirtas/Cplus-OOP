@@ -17,10 +17,10 @@ void car::ruhsat (){
     cout<< "model="<< car::model <<endl;
     cout<< "color="<< car::color <<endl;
     cout<< "hp="<< car::hp <<endl;
-
+ 
 }
 void car::setcarcolor(string _color){
-    color=_color; 
+    color=_color;
 
 }
  string car :: getcarcolor(){
