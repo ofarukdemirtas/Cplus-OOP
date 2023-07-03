@@ -17,7 +17,7 @@ int main(){
     p=&car1;
     p-> ruhsat();
     delete p ; // if u create a class with pointer u should delet it after u use !!!
-  //  cout<<car1.getcarcolor();
+     cout<<car1.getcarcolor();
     
     
    // car2.ruhsat();
