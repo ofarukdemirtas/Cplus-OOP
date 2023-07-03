@@ -20,7 +20,7 @@ void car::ruhsat (){
 
 }
 void car::setcarcolor(string _color){
-    color=_color;
+    color=_color; 
 
 }
  string car :: getcarcolor(){
