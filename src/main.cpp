@@ -1,8 +1,16 @@
 #include <iostream>
-#include "car.h"    
+#include "car.h"  
+#include "Animal.h"    
+#include "Cat.h"    
+
 using namespace std;
 
 int main(){
+    Cat tekir("Tekir"); 
+
+    tekir.feed();
+    tekir.sleep();
+    tekir.fareyakala();
 
     car car1("mavi","bugatti",34,9);
     car1.setcarcolor("mor");
@@ -13,15 +21,13 @@ int main(){
 
     car *p;
     p= new car ("sari","BMW",3124,5);
-
     cout << "bmw door number:"<<*(p->pkapisayisi)<<endl;
     p->ruhsat();
 
     delete p ; // if u create a class with pointer u should delet it after u use !!!
-
-
-
-
+    
+    
+    
     /*
     p->setcarcolor("beyaz");
     p->ruhsat();

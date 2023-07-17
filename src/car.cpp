@@ -13,6 +13,7 @@ car::car(string _color, string _model, int _hp, int kp ){
 // car deconstructor
 car::~car(){ 
     cout << car::model << "deconstructor called"<<endl;
+    delete pkapisayisi;// this is the purpose of deconstructorun don't forget mano
 }
 void car::ruhsat (){
 
