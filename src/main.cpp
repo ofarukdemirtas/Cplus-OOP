@@ -2,15 +2,37 @@
 #include "car.h"  
 #include "Animal.h"    
 #include "Cat.h"    
+#include "Dog.h"    
+#include "Bird.h"    
 
 using namespace std;
 
-int main(){
-    Cat tekir("Tekir"); 
+int Dog::dogcount=0;// so freaking importan !!!
 
+int main(){
+    /*Cat tekir("Tekir"); 
     tekir.feed();
     tekir.sleep();
-    tekir.fareyakala();
+    tekir.fareyakala();*/
+
+    Dog d1("Karabas"); 
+    d1.feed();
+    d1.sleep();
+    d1.bark();
+
+    Dog mu("adam");
+    Dog d2("cori");
+    Dog d3("Mary");
+    Dog *d4 = new Dog("killian");
+    cout << "dog count:"<< Dog::dogcount<< endl;
+    delete d4;
+    cout << "dog count:"<< Dog::dogcount<< endl;
+
+   /* Bird t1("Tweety"); 
+    t1.feed();
+    t1.sleep();
+    t1.fly();*/
+
 
     car car1("mavi","bugatti",34,9);
     car1.setcarcolor("mor");

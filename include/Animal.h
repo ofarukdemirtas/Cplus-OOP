@@ -12,7 +12,7 @@ class Animal{
         void setname(string ad);
         string getname();
 
-    private:
+    protected: // alt sınıflar buna erişebilir fakat herkes erişemez public gibi değil!!!
         string name;
 
 
